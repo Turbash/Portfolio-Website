@@ -41,6 +41,16 @@ body {
   }
 }
 
+@layer base {
+  html {
+    @apply bg-bg;
+  }
+
+  html.dark {
+    @apply bg-bg-dark;
+  }
+}
+
 .animate-slide-in {
   animation: slideIn 0.3s ease-in-out forwards;
 }
